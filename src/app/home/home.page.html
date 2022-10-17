@@ -1,20 +1,29 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
     <ion-title>
-      Blank
+      Meu primeiro App
     </ion-title>
   </ion-toolbar>
 </ion-header>
 
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Blank</ion-title>
-    </ion-toolbar>
-  </ion-header>
+<ion-content [fullscreen]="true" class="ion-padding">
+  <h4>Configurando entrada (Floating, fixed e stacked)</h4>
+  <ion-item>
+    <ion-label position="stacked">Nome :</ion-label>
+    <ion-input placeholder="Digite aqui ..:"></ion-input>
+  </ion-item>
 
-  <div id="container">
-    <strong>Ready to create an app?</strong>
-    <p>Start with Ionic <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
-  </div>
+  <h4>Entrada de dados (value, placeholder e clearinput</h4>
+  <ion-item>
+    <ion-label>Nome :</ion-label>
+    <ion-input clearinput="Digite aqui ..:"></ion-input>
+  </ion-item>
+
 </ion-content>
+<ion-footer>
+  <ion-toolbar>
+    <ion-title>
+      Direitos reservados
+    </ion-title>
+  </ion-toolbar>
+</ion-footer>
